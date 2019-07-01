@@ -1,11 +1,16 @@
 <template>
   <div class="page-home">
-    <router-view></router-view>
-    <h1>我是承载着 电影列表 影院列表 个人中心页</h1>
+    <Tabbar />
   </div>
 </template>
 <script>
+import Tabbar from "../../components/Tabber/index.vue";
+
 export default {
-  name: "home"
+  name: "home",
+
+  components: {
+    Tabbar
+  }
 };
 </script>

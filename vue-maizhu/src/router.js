@@ -28,7 +28,7 @@ export default new Router({
       ]
     },
     {
-      path: "./film/:filmId",
+      path: "/film/:filmId",
       component: () => import("./views/film/index.vue")
     },
     {
